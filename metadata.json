@@ -1,0 +1,5 @@
+{
+  "name": "GitHub Mesh Visualizer",
+  "description": "An interactive web application to visualize 3D mesh files (.obj, .glb, .gltf) directly from public GitHub repositories. Powered by React, Three.js, and @react-three/fiber.",
+  "requestFramePermissions": []
+}
