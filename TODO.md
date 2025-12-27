@@ -1,10 +1,11 @@
+
 # Project Roadmap & Enhancements
 
 ## 🎨 Visual & UX Overhaul
 - [x] **1. Theme Overhaul (Metallic/Industrial)**
     - Replace the current "blue/indigo" palette with a "Metallic Black, Grey, White" aesthetic.
     - Goal: A cleaner, professional, "Cooler" look suitable for portfolio showcasing.
-- [ ] **2. Environment & Studio Lighting (HDRI)**
+- [x] **2. Environment & Studio Lighting (HDRI)**
     - Implement Image-Based Lighting (IBL) using `<Environment />`.
     - Allow switching between Studio, City, and Outdoor lighting.
 - [x] **3. Persistent Repo History**
@@ -20,7 +21,7 @@
     - Add playback controls (Play, Pause, Scrub, Clip Selection).
 - [ ] **6. Model Transform Controls (Gizmos)**
     - Add `<TransformControls>` to allow users to Move, Rotate, and Scale the model manually.
-- [ ] **7. Mesh Inspection Modes**
+- [x] **7. Mesh Inspection Modes**
     - Toggle materials: Wireframe, Normal Map, UV Grid.
     - Inspect topology and shading artifacts.
 - [ ] **8. Multi-File / Sidecar Support**
