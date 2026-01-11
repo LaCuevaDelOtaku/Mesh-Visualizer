@@ -5,7 +5,7 @@ A lightweight, browser-based application to visualize 3D mesh files (`.obj`, `.g
 
 Powered by **React**, **Three.js**, and **@react-three/fiber**.
 
-![App Screenshot](https://via.placeholder.com/800x400?text=GitHub+Mesh+Visualizer+Preview)
+![App Screenshot](https://github.com/MrKaizen7/Mesh-Visualizer/blob/main/screenshots/preview3.png)
 
 ## ✨ Features
 
