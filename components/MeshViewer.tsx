@@ -5,6 +5,18 @@ import { OBJLoader } from 'three/examples/jsm/loaders/OBJLoader.js';
 import * as THREE from 'three';
 import { ZoomInIcon, ZoomOutIcon, RefreshCwIcon, LayersIcon, SunIcon, GridIcon } from './Icons';
 
+// Fix for JSX.IntrinsicElements errors when types are not automatically picked up
+declare global {
+  namespace JSX {
+    interface IntrinsicElements {
+      primitive: any;
+      ambientLight: any;
+      directionalLight: any;
+      color: any;
+    }
+  }
+}
+
 const Loader: React.FC = () => {
   const { progress } = useProgress();
   return <Html center className="text-zinc-400 text-xs font-mono tracking-widest">{progress.toFixed(0)}% LOADED</Html>;

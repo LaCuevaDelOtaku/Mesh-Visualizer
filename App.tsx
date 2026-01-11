@@ -167,6 +167,17 @@ const App: React.FC = () => {
                     </div>
                 )}
             </main>
+
+            <footer className="p-4 border-t border-zinc-900 bg-zinc-950/80 backdrop-blur-md z-10 w-full flex-shrink-0 text-center">
+                <a 
+                    href="https://bamprojects.vercel.app" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-xs font-medium text-zinc-600 hover:text-white transition-colors uppercase tracking-widest"
+                >
+                    Powered by BAM! Projects
+                </a>
+            </footer>
         </div>
     );
 };
