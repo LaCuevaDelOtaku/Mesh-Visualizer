@@ -10,7 +10,7 @@ export interface MeshFile {
 }
 
 const STORAGE_KEY = 'mesh_viz_recent_repos';
-const DEFAULT_REPO = 'https://github.com/MrKaizen7/meshes';
+const DEFAULT_REPO = 'https://github.com/LaCuevaDelOtaku/test-meshes';
 
 const App: React.FC = () => {
     const [meshFiles, setMeshFiles] = useState<MeshFile[]>([]);

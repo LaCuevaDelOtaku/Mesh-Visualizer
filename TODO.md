@@ -39,7 +39,7 @@
 - [ ] **12. Snapshot / Screenshot Tool**
     - Quick button to download a high-res PNG of the current view.
 - [ ] **13. GitHub Authentication**
-    - Add OAuth or Token input to increase API rate limits.
+    - Add OAuth or Token input to increase API rate limits and to import private repos.
     - Enable access to Private Repositories.
 - [ ] **14. Drag-and-Drop Local Fallback**
     - Support dropping local files directly onto the canvas for quick preview.
